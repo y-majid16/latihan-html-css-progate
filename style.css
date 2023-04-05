@@ -1,7 +1,7 @@
 form input,
 form textarea {
   width: 60%;
-  padding: 10px 5px;
+  padding: 10px 15px;
   border: none;
   border-radius: 5px;
 }
@@ -9,6 +9,7 @@ form textarea {
 form button {
   width: 30%;
   padding: 15px 10px;
+  background: yellow;
   border: none;
   border-radius: 5px;
 }
@@ -29,18 +30,59 @@ form button {
 }
 
 .name {
+  font-size: 80px;
   font-weight: bold;
-  text-align: center;
 }
 
 .name span {
   color: yellow;
 }
 
-.daftar-proyek {
-  width: 100%;
+.daftar-proyek div {
+  width: 25%;
 }
 
 .daftar-proyek div img {
   width: 100%;
+}
+
+@media (max-width: 800px) {
+  form input,
+  form textarea {
+    width: 90%;
+  }
+
+  form button {
+    width: 50%;
+  }
+}
+
+@media (max-width: 450px) {
+  form input,
+  form textarea {
+    width: 100%;
+  }
+
+  form button {
+    width: 75%;
+  }
+
+  header a {
+    display: none;
+  }
+
+  .main,
+  #tentang-saya,
+  #proyek-contoh,
+  #hubungi-saya {
+    padding: 50px;
+  }
+
+  .daftar-proyek {
+    flex-direction: column;
+  }
+
+  .daftar-proyek div {
+    width: 100%;
+  }
 }
