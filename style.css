@@ -1,0 +1,46 @@
+form input,
+form textarea {
+  width: 60%;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  width: 30%;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.main,
+#tentang-saya,
+#proyek-contoh,
+#hubungi-saya {
+  padding: 100px;
+}
+
+.ninja-ken {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: url(./img/Ninja\ Ken.png) center center no-repeat;
+  background-size: contain;
+}
+
+.name {
+  font-weight: bold;
+  text-align: center;
+}
+
+.name span {
+  color: yellow;
+}
+
+.daftar-proyek {
+  width: 100%;
+}
+
+.daftar-proyek div img {
+  width: 100%;
+}
